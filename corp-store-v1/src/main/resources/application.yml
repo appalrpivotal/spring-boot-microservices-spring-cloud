@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+---
+
+spring:
+  profiles: default
+  jpa:
+    database: MYSQL
+    
+
